@@ -19,6 +19,19 @@
 				"type": "function"
 			},
 			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_RandomNum",
+						"type": "uint256"
+					}
+				],
+				"name": "setNum",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
 				"name": "viewNum",
 				"outputs": [
@@ -60,11 +73,11 @@
 	},
 	"sources": {
 		"helloworld.sol": {
-			"keccak256": "0xc964bb6e82024f837c009ba605bb57d43991ab01d56b2bf8ce09a49fb4eefc93",
+			"keccak256": "0xcf772ee7bc797c5c3b576fc602ca30ec4e5815b38c85b5f3494854185073f397",
 			"license": "UNLICENSED",
 			"urls": [
-				"bzz-raw://e9cabda0608ae9af3b41a0cff7732b2f7f69d54bf2b20c94ae770f2a74f4d3a1",
-				"dweb:/ipfs/QmZuaUSxYau2DrXT9noknNsv9VsStRYBLKkfDPtaX8ME3d"
+				"bzz-raw://4dbd64c15ab38003457c3fac7fcbb843a1cad4017824ab6ea37251e2d60ea1b6",
+				"dweb:/ipfs/QmdnYZV6UmwS5JCbM3B4YHLuzVDk6fCwAVXS2NUBknbN4Z"
 			]
 		}
 	},
